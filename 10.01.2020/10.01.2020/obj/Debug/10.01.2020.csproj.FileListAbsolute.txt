@@ -1,0 +1,6 @@
+C:\Users\Nati\source\repos\10.01.2020\10.01.2020\bin\Debug\10.01.2020.exe.config
+C:\Users\Nati\source\repos\10.01.2020\10.01.2020\bin\Debug\10.01.2020.exe
+C:\Users\Nati\source\repos\10.01.2020\10.01.2020\bin\Debug\10.01.2020.pdb
+C:\Users\Nati\source\repos\10.01.2020\10.01.2020\obj\Debug\10.01.2020.csprojAssemblyReference.cache
+C:\Users\Nati\source\repos\10.01.2020\10.01.2020\obj\Debug\10.01.2020.exe
+C:\Users\Nati\source\repos\10.01.2020\10.01.2020\obj\Debug\10.01.2020.pdb
