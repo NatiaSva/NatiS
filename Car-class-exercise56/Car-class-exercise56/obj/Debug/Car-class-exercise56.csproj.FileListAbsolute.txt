@@ -1,6 +1,0 @@
-C:\Users\Nati\source\repos\Car-class-exercise56\Car-class-exercise56\bin\Debug\Car-class-exercise56.exe.config
-C:\Users\Nati\source\repos\Car-class-exercise56\Car-class-exercise56\bin\Debug\Car-class-exercise56.exe
-C:\Users\Nati\source\repos\Car-class-exercise56\Car-class-exercise56\bin\Debug\Car-class-exercise56.pdb
-C:\Users\Nati\source\repos\Car-class-exercise56\Car-class-exercise56\obj\Debug\Car-class-exercise56.csprojAssemblyReference.cache
-C:\Users\Nati\source\repos\Car-class-exercise56\Car-class-exercise56\obj\Debug\Car-class-exercise56.exe
-C:\Users\Nati\source\repos\Car-class-exercise56\Car-class-exercise56\obj\Debug\Car-class-exercise56.pdb
