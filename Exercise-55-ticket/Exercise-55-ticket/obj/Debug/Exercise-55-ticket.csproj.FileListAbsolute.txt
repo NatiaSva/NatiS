@@ -1,0 +1,6 @@
+C:\Users\Nati\source\repos\Exercise-55-ticket\Exercise-55-ticket\obj\Debug\Exercise-55-ticket.csprojAssemblyReference.cache
+C:\Users\Nati\source\repos\Exercise-55-ticket\Exercise-55-ticket\bin\Debug\Exercise-55-ticket.exe.config
+C:\Users\Nati\source\repos\Exercise-55-ticket\Exercise-55-ticket\bin\Debug\Exercise-55-ticket.exe
+C:\Users\Nati\source\repos\Exercise-55-ticket\Exercise-55-ticket\bin\Debug\Exercise-55-ticket.pdb
+C:\Users\Nati\source\repos\Exercise-55-ticket\Exercise-55-ticket\obj\Debug\Exercise-55-ticket.exe
+C:\Users\Nati\source\repos\Exercise-55-ticket\Exercise-55-ticket\obj\Debug\Exercise-55-ticket.pdb
