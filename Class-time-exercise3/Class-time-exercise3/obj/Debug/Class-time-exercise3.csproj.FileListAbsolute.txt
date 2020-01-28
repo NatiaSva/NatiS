@@ -1,0 +1,6 @@
+C:\Users\Nati\source\repos\Class-time-exercise3\Class-time-exercise3\bin\Debug\Class-time-exercise3.exe.config
+C:\Users\Nati\source\repos\Class-time-exercise3\Class-time-exercise3\bin\Debug\Class-time-exercise3.exe
+C:\Users\Nati\source\repos\Class-time-exercise3\Class-time-exercise3\bin\Debug\Class-time-exercise3.pdb
+C:\Users\Nati\source\repos\Class-time-exercise3\Class-time-exercise3\obj\Debug\Class-time-exercise3.csprojAssemblyReference.cache
+C:\Users\Nati\source\repos\Class-time-exercise3\Class-time-exercise3\obj\Debug\Class-time-exercise3.exe
+C:\Users\Nati\source\repos\Class-time-exercise3\Class-time-exercise3\obj\Debug\Class-time-exercise3.pdb
