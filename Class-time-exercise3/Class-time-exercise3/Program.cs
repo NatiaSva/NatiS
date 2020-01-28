@@ -38,15 +38,15 @@ namespace Class_time_exercise3
             if (hours > 23 || hours < 0)
                 hours = 0;
             else
-                this.hours = hours;
+                this.SetHours(hours);
             if (minutes > 59 || minutes < 0)
                 minutes = 0;
             else
-            this.minutes = minutes;
+                this.SetMinutes(minutes);
             if (seconds > 59 || seconds < 0)
                 seconds = 0;
             else
-            this.seconds = seconds;
+                this.SetSeconds(seconds);
         }
 
         //copy constructor
@@ -80,7 +80,7 @@ namespace Class_time_exercise3
             if (minutes > 59 || minutes < 0)
                 return;
 
-             this.minutes = minutes;
+            this.minutes = minutes;
         }
 
         // secondes
@@ -99,23 +99,52 @@ namespace Class_time_exercise3
 
         public string ToSring()
         {
-            return this.hours + " : " + this.minutes + " : " + this.seconds;
+            string zero = "0";
+            string hour = null, minute = null, seconds = null;
+            if (this.hours > 9)
+                hour = this.hours.ToString();
+            else
+            hour = zero + this.hours;
+            if (this.minutes > 9)
+                minute = this.minutes.ToString();
+            else
+                minute = zero + this.minutes;
+            if (this.seconds > 9)
+                seconds = this.seconds.ToString();
+            else
+                seconds = zero + this.seconds;
+            return hour + ":" + minute +": "+ seconds;
+
+
+
+            /*
+            if (this.hours < 9 && this.minutes < 9 && this.seconds < 9)
+               return zero + this.hours + " : " + zero + this.minutes + " : " + zero + this.seconds;
+            if (this.hours < 9 && this.minutes < 9 && this.seconds > 9)
+                return zero + this.hours + " : " + zero + this.minutes + " : " +  this.seconds;
+            if (this.hours < 9 && this.minutes > 9 && this.seconds > 9)  
+            return zero+this.hours + " : "+this.minutes + " : " +this.seconds;
+         return  this.hours + " : " + this.minutes + " : "  + this.seconds;
+         */
         }
 
         public bool Equals(Time other2)
         {
-            if (this.hours == other2.hours && this.minutes==other2.minutes && this.seconds==other2.seconds)
+            if (this.hours == other2.GetHours() && this.minutes==other2.GetMinutes() && this.seconds==other2.GetSeconds())
                 return true;
             return false;
         }
 
         public bool Before(Time other)
         {
-            if (this.hours > other.hours)
+            bool checkEqual = this.Equals(other);
+            if (this.hours > other.GetHours())
                 return false;
-            if (this.hours == other.hours && this.minutes == other.minutes && this.seconds == other.seconds)
+
+            if (checkEqual)
                 return false;
-            if (this.hours == other.hours && this.minutes > other.minutes || this.hours == other.hours && this.minutes == other.minutes && this.seconds > other.seconds)
+            
+            if ((this.hours == other.GetHours() && this.minutes > other.GetMinutes()) || (this.hours == other.GetHours() && this.minutes == other.GetMinutes() && this.seconds > other.GetSeconds()))
                 return false;
             return true;
             
@@ -133,8 +162,8 @@ namespace Class_time_exercise3
         //The difference in seconds between the object that is received as a parameter and the method applied to it
         public int Difference(Time other)
         {
-            int seconds1 = ((this.hours * 60) * 60) + (this.minutes * 60) + this.seconds;
-            int seconds2 = ((other.hours * 60) * 60) + (other.minutes * 60) + other.seconds;
+            int seconds1 = (this.hours * 60 * 60) + (this.minutes * 60) + this.seconds;
+            int seconds2 = (other.GetHours() * 60 * 60) + (other.GetMinutes() * 60) + other.GetSeconds();
 
             if (seconds1 > seconds2)
                 return seconds1 - seconds2;
