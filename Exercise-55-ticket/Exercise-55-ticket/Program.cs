@@ -17,16 +17,21 @@ namespace Exercise_55_ticket
             Console.WriteLine("You have to pay:" + TicketMachin.PriceOfTickets(ticket,Price));
 
             Console.WriteLine("Enter the amount");
-            try
+            bool chechAmount = true;
+            while (chechAmount)
             {
-                int amount = int.Parse(Console.ReadLine());
-                TicketMachin.CheckAmount(amount, ticket, Price);
+                try
+                {
+
+                    int amount = int.Parse(Console.ReadLine());
+                    Console.WriteLine(TicketMachin.CheckAmount(amount, ticket, Price));
+                    break;
+                }
+                catch
+                {
+                    Console.WriteLine("Must type an integer");
+                }
             }
-            catch
-            {
-                Console.WriteLine("Must type an integer");
-            }
-           
 
 
 
@@ -43,17 +48,25 @@ namespace Exercise_55_ticket
             return calculate;
         }
 
-        public static void CheckAmount(int amount, int t, int price)
+        public static string CheckAmount(int amount, int t, int price)
         {
             int ticket = t * price;
             int excess = amount - ticket;
             int addMoney = ticket - amount;
+           
             if (amount == ticket)
-                Console.WriteLine(t+ " Tickets wait you at the box office");
+                return t + " Tickets wait you at the box office";
             if (amount > ticket)
-                Console.WriteLine(t+ " Tickets wait you at the box office and you deserve "+excess+" shekel in excess" );
+            {
+                string excess1 = excess.ToString();
+                return t + " Tickets wait you at the box office and you deserve " + excess1 + " shekel in excess";
+            }
             if (amount < ticket)
-                Console.WriteLine("You are missed "+addMoney+" shekel");
+            {
+                string addMoney1 = addMoney.ToString();
+                return "You are missed " + addMoney1 + " shekel";
+            }
+            return ""; //we will never get here anyay
              
         }
 
