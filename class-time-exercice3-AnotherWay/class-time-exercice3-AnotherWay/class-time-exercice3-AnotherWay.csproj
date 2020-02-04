@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BAFAF753-30BF-477E-A1FC-B273C167AA53}</ProjectGuid>
+    <ProjectGuid>{3EC46872-BAD6-4F03-938C-E9FA267990F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Class_time_exercise3</RootNamespace>
-    <AssemblyName>Class-time-exercise3</AssemblyName>
+    <RootNamespace>class_time_exercice3_AnotherWay</RootNamespace>
+    <AssemblyName>class-time-exercice3-AnotherWay</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Time2.cs" />
+    <Compile Include="Time3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
