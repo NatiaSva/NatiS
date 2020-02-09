@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace class_time_exercice3_AnotherWay
 {
-    class Time
+   public class Time
     {
         private int hour, minute, second;
 
