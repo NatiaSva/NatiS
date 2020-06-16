@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<html>
+	
+	<head>
+		<script>
+			
+			let dive1;
+			function init(){
+				dive1=document.getElementById('dive1');
+				
+			}
+			
+			//Exercise 5
+			function GenerateRandomString(length){
+				let text="";
+				let possible="qwertyuiopasdfghjklzxcvbnmzxcvbnm";
+				
+				for(let i=0; i<length; i++)
+					text+=possible.charAt(Math.floor(Math.random() * possible.length))
+				dive1.innerHTML=text;
+				return text;
+			}
+			
+			
+		
+			
+		</script>
+	</head>
+	
+	<body onload="init()">
+				
+		<p><button onclick="GenerateRandomString(5)">Create random string</button></p>
+		
+		<p id="dive1"></p>
+			
+			
+	</body>
+</html>
