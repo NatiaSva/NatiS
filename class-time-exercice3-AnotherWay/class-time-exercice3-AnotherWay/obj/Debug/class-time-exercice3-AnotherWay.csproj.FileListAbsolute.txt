@@ -1,6 +1,0 @@
-C:\Users\Nati\source\repos\class-time-exercice3-AnotherWay\class-time-exercice3-AnotherWay\bin\Debug\class-time-exercice3-AnotherWay.exe.config
-C:\Users\Nati\source\repos\class-time-exercice3-AnotherWay\class-time-exercice3-AnotherWay\bin\Debug\class-time-exercice3-AnotherWay.exe
-C:\Users\Nati\source\repos\class-time-exercice3-AnotherWay\class-time-exercice3-AnotherWay\bin\Debug\class-time-exercice3-AnotherWay.pdb
-C:\Users\Nati\source\repos\class-time-exercice3-AnotherWay\class-time-exercice3-AnotherWay\obj\Debug\class-time-exercice3-AnotherWay.csprojAssemblyReference.cache
-C:\Users\Nati\source\repos\class-time-exercice3-AnotherWay\class-time-exercice3-AnotherWay\obj\Debug\class-time-exercice3-AnotherWay.exe
-C:\Users\Nati\source\repos\class-time-exercice3-AnotherWay\class-time-exercice3-AnotherWay\obj\Debug\class-time-exercice3-AnotherWay.pdb
